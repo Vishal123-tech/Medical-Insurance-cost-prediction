@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Environments
+.venv/
+venv/
+env/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Note: the trained model (models/*.pkl), metrics, EDA/evaluation figures,
+# and README screenshots ARE committed so the repo is self-contained and the
+# app runs immediately after cloning.

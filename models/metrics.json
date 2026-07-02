@@ -1,0 +1,45 @@
+{
+  "cv_comparison": [
+    {
+      "model": "RandomForest",
+      "cv_r2_mean": 0.8229822344343202,
+      "cv_r2_std": 0.008592570772082126,
+      "cv_rmse_mean": 4918.101960911476,
+      "cv_rmse_std": 282.82540068740457
+    },
+    {
+      "model": "HistGradientBoosting",
+      "cv_r2_mean": 0.8158724444247685,
+      "cv_r2_std": 0.018759657839708243,
+      "cv_rmse_mean": 5011.461218725679,
+      "cv_rmse_std": 375.5799399074536
+    },
+    {
+      "model": "Ridge",
+      "cv_r2_mean": 0.7258618046708257,
+      "cv_r2_std": 0.02523965132142487,
+      "cv_rmse_mean": 6113.013901820874,
+      "cv_rmse_std": 393.76428576044117
+    },
+    {
+      "model": "LinearRegression",
+      "cv_r2_mean": 0.725757353610811,
+      "cv_r2_std": 0.025276612239088152,
+      "cv_rmse_mean": 6113.877600907739,
+      "cv_rmse_std": 389.53690105055
+    }
+  ],
+  "best_params": {
+    "model__l2_regularization": 1.0,
+    "model__learning_rate": 0.05,
+    "model__max_iter": 200,
+    "model__max_leaf_nodes": 15
+  },
+  "best_cv_r2": 0.8301543011293736,
+  "test_metrics": {
+    "r2": 0.896890988171706,
+    "rmse": 4352.804404143893,
+    "mae": 2581.2030447524494
+  },
+  "n_rows": 1337
+}
