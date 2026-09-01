@@ -131,7 +131,7 @@ See `models/metrics.json` for the exact numbers. The committed model scores:
 
 ---
 
-## Key insights from EDA
+## Key insights from  EDA
 
 - **Smoking** is the single strongest cost driver — smokers pay several times more.
 - **Age** and **BMI** matter, with a clear **smoker × BMI ≥ 30** interaction (obese
