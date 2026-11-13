@@ -3,7 +3,7 @@
 Run with:  streamlit run app.py
 Requires models/best_model.pkl (create it with `python -m src.train`).
 """
-from __future__ import  annotations
+from __future__ import   annotations
 
 import json
 
